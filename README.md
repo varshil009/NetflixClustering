@@ -4,6 +4,9 @@
 # NetflixClustering
 Using netflix dataset, making a recommender system using unsupervised learning models. The dataset have 7787 rows.
 
+# Output pics
+![WhatsApp Image 2024-03-15 at 4 12 19 PM](https://github.com/varshil009/NetflixClustering/assets/118505855/344fe647-80a4-474c-894a-bcd27667cd8a)
+
 # Data Scrapping
 In this dataset there were many missing values in cast and director features, I filled those values using **Selenium** webdriver. The process goes like this...
 <ol>
@@ -22,15 +25,18 @@ Although it can fill the value automatically the process takes too much time, be
 Also follow the imdb guidelines for using bots to extract and using data their data.
 ![Can I use IMDb data in my software?](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX?ref_=helpart_nav_18#)
 
-## Modules / functions / algorithms used...
+# Modules / functions / algorithms used...
 [![Pandas](https://img.shields.io/badge/-Pandas-yellow?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/-NumPy-blue?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/)
 [![scikit-learn](https://img.shields.io/badge/-scikit_learn-orange?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 [![NLTK](https://img.shields.io/badge/-NLTK-green?style=flat-square&logo=nltk&logoColor=white)](https://www.nltk.org/)
 [![pickle](https://img.shields.io/badge/-Pickle-lightgrey?style=flat-square&logo=pickle&logoColor=white)](https://docs.python.org/3/library/pickle.html)
 
+<br>
+
 [![KNN](https://img.shields.io/badge/-KNN-yellowgreen?style=flat-square)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 [![Nearest Neighbours](https://img.shields.io/badge/-Nearest_Neighbours-yellowgreen?style=flat-square)](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm)
 [![PCA](https://img.shields.io/badge/-PCA-purple?style=flat-square)](https://en.wikipedia.org/wiki/Principal_component_analysis)
 [![Silhouette Score](https://img.shields.io/badge/-Silhouette_Score-blueviolet?style=flat-square)](https://en.wikipedia.org/wiki/Silhouette_(clustering))
+[![Cosine Similarity](https://img.shields.io/badge/-Cosine_Similarity-lightgrey?style=flat-square)](https://en.wikipedia.org/wiki/Cosine_similarity)
 
