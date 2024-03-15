@@ -23,7 +23,17 @@ Although it can fill the value automatically the process takes too much time, be
 ### I'm using this module instead, it connects to imdb data and fetches the relevant information. ( BTW This too took around 5 hours to only fill the missing 2000 rows of data.)
 
 Also follow the imdb guidelines for using bots to extract and using data their data.
-![Can I use IMDb data in my software?](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX?ref_=helpart_nav_18#)
+
+<br>
+
+[![Can I use IMDb data in my software?](https://img.shields.io/badge/-CAN_I_USE_IMDb_DATA_IN_MY_SOFTWARE%3F%3F-yellowgreen?style=flat-square&labelColor=yellowgreen&color=black)](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX?ref_=helpart_nav_18#)
+
+
+# Clustering 
+<ol>
+  <li>Create clusters using attributes/tags such as director, cast, country, genre, rating, and description. Tokenize, preprocess, and vectorize the attribute values using TF-IDF vectorizer.The vectorization and PCA analysis shows that 4000 features are optimal for ML models.</li>
+  <li>Clustering Algorithms: Employ <b>K-Means Clustering</b> and <b>KNearestNeighbours (KNN)</b> algorithms to construct two distinct types of models. Determine the optimal number of clusters using methods like the Silhouette Score and Dendrogram.</li>
+</ol>
 
 # Modules / functions / algorithms used...
 [![Pandas](https://img.shields.io/badge/-Pandas-yellow?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
@@ -31,8 +41,6 @@ Also follow the imdb guidelines for using bots to extract and using data their d
 [![scikit-learn](https://img.shields.io/badge/-scikit_learn-orange?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
 [![NLTK](https://img.shields.io/badge/-NLTK-green?style=flat-square&logo=nltk&logoColor=white)](https://www.nltk.org/)
 [![pickle](https://img.shields.io/badge/-Pickle-lightgrey?style=flat-square&logo=pickle&logoColor=white)](https://docs.python.org/3/library/pickle.html)
-
-<br>
 
 [![KNN](https://img.shields.io/badge/-KNN-yellowgreen?style=flat-square)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 [![Nearest Neighbours](https://img.shields.io/badge/-Nearest_Neighbours-yellowgreen?style=flat-square)](https://en.wikipedia.org/wiki/Nearest_neighbour_algorithm)
